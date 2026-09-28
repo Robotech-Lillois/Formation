@@ -298,7 +298,7 @@
 
 % \subsection{Cycle local \& Inspection}
 
-\section{Commandes de base}
+\section{Les bases}
 \begin{frame}[fragile]
     \frametitle{Commandes de base}
     \framesubtitle{initialiser - préparer - enregistrer}
@@ -357,6 +357,11 @@ git log --oneline --graph --all
 git clone https://github.com/Robotech-Lillois/Chessboard.git
 \end{lstlisting}
 
+        \item \textbf{\texttt{git remote}} : Ajoute un repo distant comme source
+\begin{lstlisting}
+git remote add origin https://github.com/Robotech-Lillois/Formation
+\end{lstlisting}
+
         \item \textbf{\texttt{git pull}} : Récupère et fusionne les commits distants sur votre branche locale.
 \begin{lstlisting}[language=bash]
 git pull origin main
@@ -393,6 +398,48 @@ __pycache__/
 Thumbs.db
 \end{lstlisting}
     \end{exampleblock}
+\end{frame}
+
+%========================================================================================
+% SLIDE : L'IMPORTANCE DU README.MD
+%========================================================================================
+\begin{frame}
+    \frametitle{Le \texttt{README.md}}
+    \framesubtitle{Un fichier à ne pas négliger}
+
+    \begin{columns}[t]
+        % Colonne 1 : Rôle et importance
+        \begin{column}{0.48\textwidth}
+            \begin{block}{\footnotesize Pourquoi est-il indispensable ?}
+                \scriptsize
+                \begin{itemize}
+                    \item \textbf{1ère impression} : 1er fichier lu et affiché par défaut sur GitHub / GitLab
+                    \item \textbf{Autonomie} : permet à un arrivant d'installer et tester le projet sans vous solliciter
+                    \item \textbf{Format Markdown} : simple en texte brut, riche à l'affichage web
+                \end{itemize}
+            \end{block}
+
+            \vskip 2pt
+            \begin{alertblock}{\centering \scriptsize Règle d'or}
+                \centering \scriptsize
+                Un code sans \texttt{README} est un inutilisable pour les autres
+            \end{alertblock}
+        \end{column}
+
+        % Colonne 2 : Structure minimale
+        \begin{column}{0.48\textwidth}
+            \begin{exampleblock}{\footnotesize Structure minimale en 5 points}
+                \scriptsize
+                \begin{enumerate}
+                    \item \textbf{Titre \& Pitch} : nom du projet et rôle en 1 phrase.
+                    \item \textbf{Installation} : dépendances et commandes de setup.
+                    \item \textbf{Usage} : exemple minimal pour lancer le code.
+                    \item \textbf{Contribution} : consignes pour soumettre une PR.
+                    \item \textbf{Licence} : conditions légales d'utilisation (MIT, GPL...).
+                \end{enumerate}
+            \end{exampleblock}
+        \end{column}
+    \end{columns}
 \end{frame}
 
 \section{Branches}
