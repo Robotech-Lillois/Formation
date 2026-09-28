@@ -24,6 +24,8 @@
 <!-- FIN_PARTIE_7 -->
 
 <!-- DEBUT_PARTIE_8 -->
+- **License**: Information about the software license (e.g., MIT License, Apache License).
+- **Contact**: Maintainer's email or other contact information for support or queries.
 <!-- FIN_PARTIE_8 -->
 
 <!-- DEBUT_PARTIE_9 -->
