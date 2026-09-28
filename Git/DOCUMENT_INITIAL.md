@@ -13,6 +13,10 @@
 
 <!-- DEBUT_PARTIE_4 -->
 <!-- FIN_PARTIE_4 -->
+### Free and Open Source
+Git is released under the GNU General Public License version 2.0, which is an open source license. The Git project chose to use GPLv2 to guarantee your freedom to share and change free software---to make sure the software is free for all its users.
+
+However, we do restrict the use of the term "Git" and the logos to avoid confusion. Please see our trademark policy for details.
 
 <!-- DEBUT_PARTIE_5 -->
 <!-- FIN_PARTIE_5 -->
