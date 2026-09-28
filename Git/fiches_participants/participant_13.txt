@@ -1,0 +1,7 @@
+=== TU ES LE PARTICIPANT 13/13 ===
+Consigne : Insère le texte ci-dessous entre :
+<!-- DEBUT_PARTIE_13 --> et <!-- FIN_PARTIE_13 -->
+
+- **Usage Instructions**: Shows how to use the project effectively.
+- **Contributing Guidelines**: Instructions for developers who want to contribute.
+- **License & Contact**: Specifies the license and how to reach the maintainer.

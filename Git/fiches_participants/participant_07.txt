@@ -1,0 +1,7 @@
+=== TU ES LE PARTICIPANT 7/13 ===
+Consigne : Insère le texte ci-dessous entre :
+<!-- DEBUT_PARTIE_7 --> et <!-- FIN_PARTIE_7 -->
+
+- **Installation**: Steps required to set up and install the project locally.
+- **Usage**: Examples showing how to run or use the project.
+- **Contributing**: Guidelines for developers who want to contribute.

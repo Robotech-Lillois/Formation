@@ -1,0 +1,8 @@
+=== TU ES LE PARTICIPANT 2/13 ===
+Consigne : Insère le texte ci-dessous entre :
+<!-- DEBUT_PARTIE_2 --> et <!-- FIN_PARTIE_2 -->
+
+Git also stores repository history efficiently. As of 2025, the current version of the Linux kernel's source code is 1.7 GB. Git stores the full history of the Linux project (1.4 million commits) in only 5.5 GB.
+
+### Git is widely used
+According to the 2022 Stack Overflow developer survey, 96% of professional developers use Git.
