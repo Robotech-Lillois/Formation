@@ -47,6 +47,16 @@ A typical README.md may include the following sections:
 <!-- FIN_PARTIE_10 -->
 
 <!-- DEBUT_PARTIE_11 -->
+```markdown
+## Contributing
+Feel free to submit pull requests or open issues.
+
+## License
+MIT License
+
+## Contact
+Email: example@domain.com
+```
 <!-- FIN_PARTIE_11 -->
 
 <!-- DEBUT_PARTIE_12 -->
