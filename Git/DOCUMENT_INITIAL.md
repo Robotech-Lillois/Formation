@@ -36,6 +36,12 @@
 <!-- FIN_PARTIE_11 -->
 
 <!-- DEBUT_PARTIE_12 -->
+
+## 4. Purpose of README.md
+The primary purpose of a README.md file is to provide essential information about the project. This includes:
+- **Project Overview**: Explains what the project is about and its main features.
+- **Installation Instructions**: Guides users on how to install and set up the project.
+
 <!-- FIN_PARTIE_12 -->
 
 <!-- DEBUT_PARTIE_13 -->
