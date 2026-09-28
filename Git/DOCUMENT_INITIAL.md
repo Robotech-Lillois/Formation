@@ -18,6 +18,12 @@
 <!-- FIN_PARTIE_5 -->
 
 <!-- DEBUT_PARTIE_6 -->
+### Basic Structure of README.md
+
+A typical README.md may include the following sections:
+
+- **Project Title**: The name of project, usually written as a main heading in Markdown.
+- **Description**: A short explanation of what the project does and its purpose.
 <!-- FIN_PARTIE_6 -->
 
 <!-- DEBUT_PARTIE_7 -->
@@ -50,4 +56,3 @@ The primary purpose of a README.md file is to provide essential information abou
 
 <!-- DEBUT_PARTIE_13 -->
 <!-- FIN_PARTIE_13 -->
-
