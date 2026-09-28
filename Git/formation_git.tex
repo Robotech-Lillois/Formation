@@ -442,6 +442,64 @@ Thumbs.db
     \end{columns}
 \end{frame}
 
+%========================================================================================
+% SLIDE : EXEMPLE DE README.MD POUR LE PROJET MATH
+%========================================================================================
+\begin{frame}[fragile]
+    \frametitle{Exemple de \texttt{README.md} : Syntaxe Markdown}
+    % \framesubtitle{Structure type appliquée à notre bibliothèque \texttt{libmath}}
+
+    \vspace{-1cm}
+
+    \begin{columns}[t]
+        % Colonne 1 : Le fichier brut
+        \begin{column}{0.56\textwidth}
+            \begin{block}{\footnotesize Fichier \texttt{README.md} (Source)}
+\begin{lstlisting}[basicstyle=\ttfamily\fontsize{5.2}{6.2}\selectfont]
+# LibMath
+
+Petite bibliotheque **C** pour operations basiques.
+
+## Installation
+```bash
+git clone git@github.com:club/libmath.git
+gcc -c math.c -o math.o
+```
+
+## Utilisation
+```c
+#include "math.h"
+int res = add(5, 3); // res = 8
+```
+
+## Fonctions incluses
+- `add(a, b)` : Additionne deux entiers
+- `sub(a, b)` : Soustrait deux entiers
+
+## Licence
+Sous licence **MIT**. Contribuez via *Pull Request* !
+\end{lstlisting}
+            \end{block}
+        \end{column}
+
+        % Colonne 2 : Légende de la syntaxe
+        \begin{column}{0.41\textwidth}
+            \begin{exampleblock}{\footnotesize Syntaxe Markdown}
+                \scriptsize
+                \begin{itemize}
+                    \item \texttt{\# Titre} : Titre principal (H1)
+                    \item \texttt{\#\# Titre} : Sous-section (H2)
+                    \item \texttt{**texte**} : Met en \textbf{gras}
+                    \item \texttt{*texte*} : Met en \textit{italique}
+                    \item \texttt{`code`} : Code ou commande en ligne
+                    \item \texttt{```lang} : Bloc de code avec coloration syntaxique
+                    \item \texttt{- item} : Liste à puces
+                \end{itemize}
+            \end{exampleblock}
+        \end{column}
+    \end{columns}
+\end{frame}
+
 \section{Branches}
 %========================================================================================
 % SLIDE : Commandes complètes de branches
