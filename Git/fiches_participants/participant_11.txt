@@ -1,0 +1,14 @@
+=== TU ES LE PARTICIPANT 11/13 ===
+Consigne : Insère le texte ci-dessous entre :
+<!-- DEBUT_PARTIE_11 --> et <!-- FIN_PARTIE_11 -->
+
+```markdown
+## Contributing
+Feel free to submit pull requests or open issues.
+
+## License
+MIT License
+
+## Contact
+Email: example@domain.com
+```

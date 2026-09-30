@@ -1,0 +1,13 @@
+=== TU ES LE PARTICIPANT 10/13 ===
+Consigne : Insère le texte ci-dessous entre :
+<!-- DEBUT_PARTIE_10 --> et <!-- FIN_PARTIE_10 -->
+
+```markdown
+## Installation
+1. Clone the repository
+2. Run `npm install`
+3. Start the server with `npm start`
+
+## Usage
+Visit `http://localhost:3000` in your browser to use the application.
+```

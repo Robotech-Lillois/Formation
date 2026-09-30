@@ -1,0 +1,8 @@
+=== TU ES LE PARTICIPANT 6/13 ===
+Consigne : Insère le texte ci-dessous entre :
+<!-- DEBUT_PARTIE_6 --> et <!-- FIN_PARTIE_6 -->
+
+### Basic Structure of README.md
+A typical README.md may include the following sections:
+- **Project Title**: The name of project, usually written as a main heading in Markdown.
+- **Description**: A short explanation of what the project does and its purpose.

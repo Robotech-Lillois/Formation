@@ -21,7 +21,7 @@
 \usetikzlibrary{arrows.meta, positioning, shapes.geometric, backgrounds, fit}
 \usepackage{listings}
 \usepackage{ccicons} % Icônes Creative Commons
-\usepackage{ulem}
+\usepackage[normalem]{ulem}
 
 %----------------------------------------------------------------------------------------
 %	SÉLECTION DU THÈME ET POLICES
@@ -80,6 +80,8 @@
         \draw[red, line width=1.2pt] (-0.63ex, 0.63ex) -- (0.63ex, -0.63ex);%
     }%
 }
+
+\newcommand{\hl}[2]{\setlength{\fboxsep}{1.2pt}\colorbox{#1}{\ttfamily\tiny\strut #2}}
 
 %----------------------------------------------------------------------------------------
 %	CONFIGURATION LISTINGS (CORRECTION DES ACCENTS UTF-8)
@@ -224,7 +226,7 @@
         \begin{itemize}
             \item \textbf{Des dizaines de versions dans un seul fichier} : \sout{projet\_final.odt, projet\_v2\_final\_final5.odt}, \dots  $\Rightarrow$ \textbf{projet.odt}
             \item \textbf{Droit à l'erreur} : Possibilité d'inspecter ou d'annuler n'importe quelle modification passée
-            \item \textbf{Travail collaboratif plus simple} : Plusieurs personnes peuvent coder simultanément sans écraser le code ddes autres
+            \item \textbf{Travail collaboratif plus simple} : Plusieurs personnes peuvent coder simultanément sans écraser le code des autres
             \item \textbf{Branches indépendantes} : Tester des fonctionnalités sans casser les autres versions
             \item \textbf{Standard universel} du monde pro ET de la recherche.
         \end{itemize}
@@ -233,7 +235,7 @@
 % \subsection{Git vs GitHub}
 \begin{frame}
     \frametitle{Git vs GitHub}
-    \framesubtitle{outil local VS service d'hébergement}
+    \framesubtitle{Outil local VS Plateforme d'hébergement}
 
     \begin{columns}[t]
         \begin{column}{0.48\textwidth}
@@ -286,7 +288,7 @@
 
     \begin{center}
         \IfFileExists{./img/gitflow.png}{%
-            \includegraphics[height=7cm,keepaspectratio]{./img/gitflow.png}%
+            \includegraphics[height=0.82\textheight,keepaspectratio]{./img/gitflow.png}%
         }{%
             \fbox{\begin{minipage}[c][3.8cm][c]{0.95\linewidth}\centering Image \texttt{./img/gitflow.png} manquante\end{minipage}}%
         }
@@ -422,7 +424,7 @@ Thumbs.db
             \vskip 2pt
             \begin{alertblock}{\centering \scriptsize Règle d'or}
                 \centering \scriptsize
-                Un code sans \texttt{README} est un inutilisable pour les autres
+                Un code sans \texttt{README} est inutilisable pour les autres
             \end{alertblock}
         \end{column}
 
@@ -655,7 +657,7 @@ git switch main                 # Revient sur la branche principale
             \end{alertblock}
         \end{column}
     \end{columns}
-    \center\scriptsize\textit{Note : ff = fast forward}
+    \centering\scriptsize\textit{Note : ff = fast forward}
 \end{frame}
 
 %========================================================================================
@@ -907,7 +909,7 @@ git merge --ff-only feat-sub
             \begin{block}{\scriptsize Sécurité}
                 \begin{itemize}\scriptsize
                     \item \texttt{main} a divergé (est passé sur C2, pas C1)
-                    \item Git ne sais pas quel code conserver donc bloque
+                    \item Git ne sait pas quel code conserver donc bloque
                     \item \texttt{--ff-only} : Aucune balise de conflit injectée
                 \end{itemize}
             \end{block}
@@ -955,7 +957,6 @@ git rebase main
         \end{column}
         \begin{column}{0.48\textwidth}
             \begin{alertblock}{\scriptsize Fichier \texttt{math.h} en cours de rebase}
-\newcommand{\hl}[2]{\setlength{\fboxsep}{1.2pt}\colorbox{#1}{\ttfamily\tiny\strut #2}}
 \begin{lstlisting}[
     language=C,
     basicstyle=\ttfamily\tiny,

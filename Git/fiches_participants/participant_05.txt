@@ -1,0 +1,10 @@
+=== TU ES LE PARTICIPANT 5/13 ===
+Consigne : Insère le texte ci-dessous entre :
+<!-- DEBUT_PARTIE_5 --> et <!-- FIN_PARTIE_5 -->
+
+## 2. What is a README.md?
+A README.md is an important document in a repository that introduces the project and explains its purpose, setup, and usage to help users and developers understand and contribute to it.
+
+- Uses Markdown (.md) for formatted documentation and is usually the first file users read in a project.
+- Provides a project overview, installation instructions, configuration details, and usage examples such as code or command-line commands.
+- May include license information, contributor credits, and appears well-formatted on platforms like GitHub.
