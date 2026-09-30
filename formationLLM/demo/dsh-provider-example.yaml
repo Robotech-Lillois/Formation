@@ -1,0 +1,33 @@
+# Exemple de configuration dsh -> modèle local via llama-server.
+# Chemin actuel (docs 2026) : $DSH_HOME/profiles/web/cordis.patch.yml
+# (d'anciennes builds ~0.1.x utilisaient $DSH_HOME/settings.yaml : vérifier la
+#  version installée la veille — dsh est en "developer preview").
+#
+# Interface alternative : Settings -> Models -> "Add a custom model API"
+# (le formulaire écrit ce même bloc ; les switches `compat` ne sont exposés
+#  que dans le fichier).
+#
+# IMPORTANT :
+#  - le `id` du modèle doit être EXACTEMENT celui annoncé par GET /v1/models ;
+#  - `contextWindow` doit être <= au `-c` passé à llama-server, sinon
+#    troncature silencieuse du prompt (chercher "truncating input prompt") ;
+#  - une route doit TOUJOURS résoudre un credential, même pour un serveur
+#    local qui l'ignore : export DSH_LLM_KEY=local (sinon erreur PI_AI_ERROR
+#    "No API key for provider").
+
+- id: llm-pi-ai
+  config:
+    providers:
+      local:
+        displayName: Local (llama.cpp)
+        apiKeyEnv: DSH_LLM_KEY
+        api: openai-completions
+        baseURL: http://127.0.0.1:8080/v1
+        compat:
+          supportsDeveloperRole: false   # beaucoup de gateways rejettent role: developer
+          maxTokensField: max_tokens     # llama-server connaît max_tokens, pas max_completion_tokens
+        models:
+          - id: ggml-org/Qwen3.5-0.8B-GGUF   # TODO: remplacer par la sortie de `curl http://127.0.0.1:8080/v1/models`
+            name: Qwen3.5 0.8B (local)
+            contextWindow: 16384
+            maxTokens: 2048

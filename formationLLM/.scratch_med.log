@@ -1,0 +1,412 @@
+evaluation warning: Package 'texlive-combined-medium-2025-final' in /nix/store/2s013d7g7sna6rls7nk0yy8343h6mdiw-source/pkgs/tools/typesetting/tex/texlive/default.nix:630 has the following problem: removal: texlive.combined schemes are deprecated and will be removed from Nixpkgs 27.05. Please switch to texliveSmall or another top level scheme. See https://nixos.org/manual/nixpkgs/unstable#sec-problems
+these 6 derivations will be built:
+  /nix/store/a56rrp2sfc2qq2rvf0ad0h6hc00r11g5-texlive-combined-medium-2025-final-texmfdist.drv
+  /nix/store/biyl9hs51xf86vs67psi6phzprkq2wn4-texlive-combined-medium-2025-final-doc.drv
+  /nix/store/k5b3v9ignwrzb246xl6zhns9wp116h2w-texlive-combined-medium-2025-final-tlpkg.drv
+  /nix/store/k9b1dk1p8k2k8sbhk2w5qyh4km3mcbis-texlive-combined-medium-2025-final-texmfroot.drv
+  /nix/store/plq2z2wqin8hw5fcpgm8j64vig3qgy15-fonts.conf.drv
+  /nix/store/73ml9iiy0qp8w8wcf7nqqyna9rsl3i6c-texlive-combined-medium-2025-final.drv
+building '/nix/store/a56rrp2sfc2qq2rvf0ad0h6hc00r11g5-texlive-combined-medium-2025-final-texmfdist.drv'...
+building '/nix/store/k5b3v9ignwrzb246xl6zhns9wp116h2w-texlive-combined-medium-2025-final-tlpkg.drv'...
+building '/nix/store/biyl9hs51xf86vs67psi6phzprkq2wn4-texlive-combined-medium-2025-final-doc.drv'...
+building '/nix/store/k9b1dk1p8k2k8sbhk2w5qyh4km3mcbis-texlive-combined-medium-2025-final-texmfroot.drv'...
+building '/nix/store/plq2z2wqin8hw5fcpgm8j64vig3qgy15-fonts.conf.drv'...
+building '/nix/store/73ml9iiy0qp8w8wcf7nqqyna9rsl3i6c-texlive-combined-medium-2025-final.drv'...
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 15 June 2025. Version 4.87.
+Force everything to be remade.
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Category 'other':
+  Rerun of 'pdflatex' forced or previously required:
+    Reason or flag: 'go_mode'
+
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -file-line-error -recorder  "formation_llm.tex"'
+------------
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/nixos.org) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./formation_llm.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/beamer/beamer.cls
+Document Class: beamer 2026/01/22 v3.77 A class for typesetting presentations
+
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/beamer/beamerbasemodes.sty
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/etoolbox/etoolbox.sty)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/beamer/beamerbasedecode.sty))
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/iftex/iftex.sty)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/beamer/beamerbaseoptions.sty
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/graphics/keyval.sty))
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/geometry/geometry.sty
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/iftex/ifvtex.sty))
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/pgf/math/pgfmath.sty
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/pgf/utilities/pgfrcs.sty
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/pgf/utilities/pgfutil-common.tex)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/pgf/utilities/pgfutil-latex.def)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/pgf/pgf.revision.tex)))
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/pgf/utilities/pgfkeys.sty
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/pgf/utilities/pgfkeys.code.tex
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex)))
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/pgf/math/pgfmath.code.tex
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/pgf/math/pgfmathparser.code.tex)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/pgf/math/pgfmathfunctions.code.tex)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/pgf/math/pgfmathcalc.code.tex)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/pgf/math/pgfmathfloat.code.tex)))
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/base/size11.clo)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/graphics/graphicx.sty
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/graphics/graphics.sty
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/graphics/trig.sty)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/graphics-cfg/graphics.cfg)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/graphics-def/pdftex.def)))
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/pgf/systemlayer/pgf.cfg)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def)))
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex))
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/xcolor/xcolor.sty
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/graphics-cfg/color.cfg)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/graphics/mathcolor.ltx))
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/pgf/math/pgfint.code.tex)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex)))
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/pgf/utilities/xxcolor.sty)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/base/atbegshi-ltx.sty)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/hyperref/hyperref.sty
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/pdfescape/pdfescape.sty
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/ltxcmds/ltxcmds.sty)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/infwarerr/infwarerr.sty)))
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/hycolor/hycolor.sty)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/hyperref/nameref.sty
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/refcount/refcount.sty)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/gettitlestring/gettitlestring.sty
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/kvoptions/kvoptions.sty)))
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/stringenc/stringenc.sty)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/hyperref/pd1enc.def)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/intcalc/intcalc.sty)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/hyperref/puenc.def)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/url/url.sty)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/bitset/bitset.sty
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/bigintcalc/bigintcalc.sty))
+
+Package hyperref Message: Stopped early.
+
+)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/hyperref/hpdftex.def
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/uniquecounter/uniquecounter.sty)))
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/beamer/beamerbaserequires.sty
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/beamer/beamerbasecompatibility.sty)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/beamer/beamerbasefont.sty
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/amsfonts/amssymb.sty
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/amsfonts/amsfonts.sty)))
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/beamer/beamerbasetranslator.sty
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/translator/translator.sty))
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/beamer/beamerbasemisc.sty)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/beamer/beamerbasetwoscreens.sty)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/beamer/beamerbaseoverlay.sty)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/beamer/beamerbasetitle.sty)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/beamer/beamerbasesection.sty)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/beamer/beamerbaseframe.sty)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/beamer/beamerbaseverbatim.sty)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/beamer/beamerbaseframesize.sty)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/beamer/beamerbaseframecomponents.sty)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/beamer/beamerbasecolor.sty)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/beamer/beamerbasenotes.sty)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/beamer/beamerbasetoc.sty)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/beamer/beamerbasetemplates.sty
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/beamer/beamerbaseauxtemplates.sty
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/beamer/beamerbaseboxes.sty)))
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/beamer/beamerbaselocalstructure.sty
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/tools/enumerate.sty))
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/beamer/beamerbasenavigation.sty
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/beamer/beamerbasenavigationsymbols.tex))
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/beamer/beamerbasetheorems.sty
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/amsmath/amstext.sty
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/amsmath/amsgen.sty))
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/amsmath/amsbsy.sty)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/amsmath/amsopn.sty))
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/amscls/amsthm.sty))
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/beamer/beamerbasethemes.sty))
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/beamer/beamerthemedefault.sty
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/beamer/beamerfontthemedefault.sty)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/beamer/beamercolorthemedefault.sty)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/beamer/beamerinnerthemedefault.sty)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/beamer/beamerouterthemedefault.sty)))
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/base/inputenc.sty)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/base/fontenc.sty)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/babel/babel.sty
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/babel/txtbabel.def)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/babel/locale/fr/babel-french.tex)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/babel-french/french.ldf
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/babel-french/french3.ldf)))
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/carlisle/scalefnt.sty)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/booktabs/booktabs.sty)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/pgf/frontendlayer/tikz.sty
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/pgf/basiclayer/pgf.sty
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/pgf/modules/pgfmoduleplot.code.tex)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty))
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/pgf/utilities/pgffor.sty
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/pgf/utilities/pgffor.code.tex))
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/pgf/modules/pgfmodulematrix.code.tex)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code
+.tex)))
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.
+code.tex)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.geome
+tric.code.tex
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.geometric.code.tex
+))
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarybackgrounds.
+code.tex)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfit.code.tex
+)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/listings/listings.sty
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/listings/lstpatch.sty)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/listings/lstmisc.sty)
+(/nix/store/g1yh7scv08mhnhf65ln97bvk11i5a97v-texlive-combined-medium-2025-final
+-texmfdist/tex/latex/listings/listings.cfg))
+==> First Aid for listings.sty no longer applied!
+    Expected:
+        2024/09/23 1.10c (Carsten Heinz)
+    but found:
+        2025/11/14 1.11b (Carsten Heinz)
+    so I'm assuming it got fixed.
+
+! LaTeX Error: File `ccicons.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
+./formation_llm.tex:24: Emergency stop.
+<read *> 
+         
+l.24 \usepackage
+                {ulem}^^M
+./formation_llm.tex:24:  ==> Fatal error occurred, no output PDF file produced!
+Transcript written on formation_llm.log.
+Latexmk: Getting log file 'formation_llm.log'
+Latexmk: Examining 'formation_llm.fls'
+Latexmk: Examining 'formation_llm.log'
+Latexmk: Missing input file 'ccicons.sty' message in .log file:
+  ! LaTeX Error: File `ccicons.sty' not found.
+Latexmk: Using bibtex to make bibliography file(s).
+Latexmk: Errors, so I did not complete making targets
+Collected error summary (may duplicate other messages):
+  pdflatex: Command for 'pdflatex' gave return code 1
+      Refer to 'formation_llm.log' and/or above output for details
+
+Latexmk: Sometimes, the -f option can be used to get latexmk
+  to try to force complete processing.
+  But normally, you will need to correct the file(s) that caused the
+  error, and then rerun latexmk.
+  In some cases, it is best to clean out generated files before rerunning
+  latexmk after you've corrected the files.
