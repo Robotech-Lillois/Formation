@@ -1,0 +1,12 @@
+*.nix
+*.log
+*.nav
+*.snm
+*.aux
+*.vrb
+*.toc
+*.vrb
+plan.md
+*.out
+*.fdb_latexmk
+

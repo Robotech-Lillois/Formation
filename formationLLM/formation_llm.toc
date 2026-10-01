@@ -1,7 +1,0 @@
-\babel@toc {french}{}\relax 
-\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
-\beamer@sectionintoc {2}{Comprendre un LLM}{7}{0}{2}
-\beamer@sectionintoc {3}{Faire tourner un modèle}{19}{0}{3}
-\beamer@sectionintoc {4}{Harnais d'agents}{25}{0}{4}
-\beamer@sectionintoc {5}{Exercice}{35}{0}{5}
-\beamer@sectionintoc {6}{Conclusion}{37}{0}{6}
