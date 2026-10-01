@@ -1,4 +1,7 @@
 *.nix
+*.lock
+demo
+*.fls
 *.log
 *.nav
 *.snm
