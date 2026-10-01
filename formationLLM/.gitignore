@@ -12,4 +12,5 @@ demo
 plan.md
 *.out
 *.fdb_latexmk
-
+.scratch_med.log
+formation_llm.fls
