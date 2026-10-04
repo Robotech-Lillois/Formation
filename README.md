@@ -79,6 +79,7 @@ int main() {//exemple
   <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.licdn.com%2Fdms%2Fimage%2Fv2%2FD4D12AQF6DUzUOh9srg%2Farticle-cover_image-shrink_720_1280%2Farticle-cover_image-shrink_720_1280%2F0%2F1714986616134%3Fe%3D2147483647%26v%3Dbeta%26t%3DN3VrB05JKVQRFggtM80AnyhowK7t_lTbtOE0ZDRbJis&f=1&nofb=1&ipt=d97be4ebcb42fda791776b7c234b301474ac682105cc3a7051ce141cc955dcac" alt="Left image" style="width:48%; height:auto;">
   <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.licdn.com%2Fdms%2Fimage%2Fv2%2FD4D12AQF6DUzUOh9srg%2Farticle-cover_image-shrink_720_1280%2Farticle-cover_image-shrink_720_1280%2F0%2F1714986616134%3Fe%3D2147483647%26v%3Dbeta%26t%3DN3VrB05JKVQRFggtM80AnyhowK7t_lTbtOE0ZDRbJis&f=1&nofb=1&ipt=d97be4ebcb42fda791776b7c234b301474ac682105cc3a7051ce141cc955dcac" alt="Right image" style="width:48%; height:auto;">
 </div>
+
 #### Obsidian
 
 Obsidian utilise des variantes du markdown et cartaines balises sont intéréssantes à utiliser. Pour plus de détail on peut regarder [ce lien](https://github.com/mot-prog/Obsidian/blob/main/Obsidian_CheatList.md)
@@ -86,5 +87,7 @@ Obsidian utilise des variantes du markdown et cartaines balises sont intéréssa
 #### LateX
 
 Le latex est un language utiliser principalement pour écrire des formules mathématiques. On peut l'utiliser directement dans un fichier markdown par exemple :
+
 $$V_- = \frac{R1}{R1+R2}V_s$$
+
 Pour plus de commandes de bases on peut aller voir [ce fichier](https://github.com/mot-prog/Obsidian/blob/main/Latex_Cheatlist.md)
