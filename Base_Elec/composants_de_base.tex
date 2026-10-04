@@ -1,0 +1,247 @@
+\documentclass[11pt]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{booktabs} 
+
+%%% Customize Theme %%%%%%%%%%%%%%%%%%%%%%
+\usetheme{Madrid} 
+
+\definecolor{myRed}{RGB}{134,31,65}
+\definecolor{myOrange}{RGB}{229, 117, 31}
+
+\setbeamercolor*{structure}{bg=myRed!20,fg=myRed!90}
+\setbeamercolor*{palette primary}{use=structure,fg=white,bg=structure.fg} 
+\setbeamercolor*{palette tertiary}{use=structure,fg=white,bg=myRed}
+\setbeamercolor{frametitle}{bg=myRed!85,fg=white} 
+\setbeamercolor*{titlelike}{parent=palette primary} 
+\setbeamercolor{section in head/foot}{fg=myOrange, bg=white}
+
+%%% Specific Colors %%%
+\setbeamercolor{item projected}{bg=myOrange}
+\setbeamertemplate{enumerate items}{bg=myOrange}
+\setbeamercolor{itemize item}{fg=myOrange}
+\setbeamercolor{itemize subitem}{fg=myOrange}
+\setbeamercolor{button}{bg=myOrange}
+\setbeamercolor{section in toc}{fg=black}
+\setbeamercolor{subsection in toc}{fg=black}
+
+%%% Block Colors %%%
+\setbeamercolor{block title}{bg=myOrange, fg=white}
+\setbeamercolor{block body}{bg=myOrange!20}
+
+%---------------------------------------------------------
+%	SELECT FONT THEME & FONTS
+%---------------------------------------------------------
+\usefonttheme{default} 
+\usepackage{palatino} 
+\usepackage[default]{opensans} 
+\useinnertheme{circles}
+
+%---------------------------------------------------------
+%	PRESENTATION INFORMATION
+%---------------------------------------------------------
+\title[Composants Électroniques]{Les 4 composants électroniques de base}
+\subtitle{Résistance, Condensateur, Diode, Transistor}
+\author[Walid EL BEKRAOUI]{Walid EL BEKRAOUI}
+
+\date[\today]
+
+\begin{document}
+
+%---------------------------------------------------------
+%	TITLE SLIDE
+%---------------------------------------------------------
+\begin{frame}
+    \titlepage
+\end{frame}
+
+%---------------------------------------------------------
+%	TABLE OF CONTENTS SLIDE
+%---------------------------------------------------------
+\begin{frame}
+    \frametitle{Sommaire}
+    \tableofcontents
+\end{frame}
+
+%---------------------------------------------------------
+%	PRESENTATION BODY SLIDES
+%---------------------------------------------------------
+
+\section{Objectifs pédagogiques}
+\begin{frame}
+    \frametitle{Objectifs pédagogiques}
+    À l'issue de cette formation, vous serez capable de :
+    \begin{itemize}
+        \item Identifier ces composants visuellement et par leur symbole
+        \item Expliquer leur rôle dans un circuit
+        \item Savoir lire les valeurs (code couleurs, marquages)
+        \item Différencier les principaux types
+        \item Comprendre leurs applications concrètes
+        \item Effectuer un test simple avec un multimètre
+    \end{itemize}
+\end{frame}
+
+\section{La résistance}
+\begin{frame}
+    \frametitle{1. La résistance}
+    \begin{block}{1.1 Définition}
+        La résistance est un composant passif qui limite l'intensité du courant électrique qui circule dans un circuit. Elle transforme une partie de l'énergie électrique en chaleur.
+    \end{block}
+    
+    \textbf{1.2 Loi fondamentale (Loi d'Ohm)}
+    $$ U = R \times I $$
+    \begin{itemize}
+        \item $U$ : Tension en Volts (V)
+        \item $R$ : Résistance en Ohms ($\Omega$)
+        \item $I$ : Intensité en Ampères (A)
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{La résistance : Types et Applications}
+    \textbf{1.6 Types de résistances}
+    \begin{itemize}
+        \item \textbf{Carbone / Métallisée :} Circuits génériques, audio, mesures
+        \item \textbf{Potentiomètre :} Résistance variable (volume)
+        \item \textbf{Thermistance / LDR :} Varie avec température / lumière
+    \end{itemize}
+    
+    \vspace{0.5cm}
+    \textbf{1.7 Applications concrètes}
+    \begin{itemize}
+        \item Limiter le courant (ex: Protéger une LED)
+        \item Diviseur de tension
+        \item Pull-up / Pull-down (Fixer un niveau logique)
+    \end{itemize}
+    
+    \begin{alertblock}{Exercice n°1}
+        Calculez la résistance nécessaire pour alimenter une LED rouge ($V_F = 1,7V$, $I = 10mA$) sous $5V$. Astuce : $R = \frac{U_{alim} - V_F}{I}$
+    \end{alertblock}
+\end{frame}
+
+\section{Le condensateur}
+\begin{frame}
+    \frametitle{2. Le condensateur (Capacité)}
+    \begin{block}{2.1 Définition}
+        Le condensateur est un composant passif capable de stocker et de restituer de l'énergie électrique sous forme de charges. Il agit comme un réservoir temporaire de tension.
+    \end{block}
+    
+    \textbf{2.2 Grandeur et unité}
+    La capacité $C$ se mesure en Farads (F). 
+    \begin{itemize}
+        \item Microfarad ($\mu F$) : $10^{-6}F$
+        \item Nanofarad ($nF$) : $10^{-9}F$
+        \item Picofarad ($pF$) : $10^{-12}F$
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Le condensateur : Comportement et Polarité}
+    \textbf{2.5 Comportement}
+    \begin{itemize}
+        \item \textbf{Continu (CC) :} Se comporte comme un circuit ouvert après charge.
+        \item \textbf{Alternatif (CA) :} Laisse passer le courant (plus la fréquence est élevée, plus il se laisse traverser).
+    \end{itemize}
+    
+    \vspace{0.3cm}
+    \begin{alertblock}{2.7 Polarité à respecter (TRÈS IMPORTANT)}
+        Un condensateur électrolytique inversé peut gonfler, fuir ou exploser.
+        \begin{itemize}
+            \item Borne + : Souvent plus longue ou marquée d'un "+"
+            \item Borne -- : Marquée d'une bande avec des "--"
+        \end{itemize}
+    \end{alertblock}
+\end{frame}
+
+\section{La diode}
+\begin{frame}
+    \frametitle{3. La diode}
+    \begin{block}{3.1 Définition}
+        La diode est un composant semi-conducteur qui ne laisse passer le courant électrique que dans un seul sens. C'est un « clapet » électronique unidirectionnel (Jonction PN).
+    \end{block}
+
+    \textbf{3.3 Polarisation}
+    \begin{itemize}
+        \item \textbf{Passante :} Anode (+) vers Cathode (-) $\rightarrow$ Conductrice.
+        \item \textbf{Bloquante :} Inversée $\rightarrow$ Isolante.
+    \end{itemize}
+
+    \textbf{3.5 Tension de seuil typique ($V_F$)}
+    \begin{itemize}
+        \item Silicium (ex: 1N4148) : $\sim 0,7V$
+        \item LED Rouge : $\sim 1,6 - 1,8V$
+    \end{itemize}
+\end{frame}
+
+\section{Le transistor}
+\begin{frame}
+    \frametitle{4. Le transistor}
+    \begin{block}{4.1 Définition}
+        Composant semi-conducteur actif. Son rôle est de commander un courant important à l'aide d'un très faible courant. (Interrupteur commandé ou amplificateur).
+    \end{block}
+    
+    \begin{columns}[t]
+        \begin{column}{0.5\textwidth}
+            \textbf{4.3 Constitution (BJT)}
+            \begin{itemize}
+                \item \textbf{B}ase : Commande
+                \item \textbf{É}metteur : Sortie
+                \item \textbf{C}ollecteur : Courant principal
+            \end{itemize}
+        \end{column}
+        \begin{column}{0.5\textwidth}
+            \textbf{4.4 Les 2 types}
+            \begin{itemize}
+                \item \textbf{NPN} : $I_C \to E$
+                \item \textbf{PNP} : $E \to I_C$
+            \end{itemize}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Le transistor : Fonctionnement}
+    \textbf{4.5 États de fonctionnement}
+    \begin{itemize}
+        \item \textbf{Coupure (OFF) :} $I_B = 0 \rightarrow I_C \approx 0$ (Interrupteur ouvert)
+        \item \textbf{Saturation (ON) :} $I_B$ suffisant $\rightarrow I_C$ maximal (Interrupteur fermé)
+        \item \textbf{Zone active :} $I_C = \beta \times I_B$ (Amplificateur)
+    \end{itemize}
+    
+    \vspace{0.5cm}
+    \textbf{4.7 Exemple : Piloter une LED (NPN)}
+    \begin{itemize}
+        \item Bouton relâché $\rightarrow I_B = 0 \rightarrow$ Transistor coupé $\rightarrow$ LED éteinte
+        \item Bouton appuyé $\rightarrow$ Courant dans la base $\rightarrow$ Transistor saturé $\rightarrow$ LED allumée
+    \end{itemize}
+\end{frame}
+
+\section{Comparaison synthétique}
+\begin{frame}
+    \frametitle{5. Comparaison synthétique}
+    \footnotesize
+    \begin{table}[]
+        \begin{tabular}{@{}lllll@{}}
+        \toprule
+        \textbf{Composant} & \textbf{Type} & \textbf{Rôle principal} & \textbf{Unidir.} & \textbf{Stockage} \\ \midrule
+        Résistance & Passif & Limiter courant / Diviser & Non & Non \\
+        Condensateur & Passif & Stocker / Restituer charge & Non* & Oui \\
+        Diode & Semi-cond. & Redresser / Protéger / LED & Oui & Non \\
+        Transistor BJT & Actif & Interrupteur / Amplificateur & Dépend & Non \\ \bottomrule
+        \end{tabular}
+    \end{table}
+    \vspace{0.5cm}
+    \textit{*Sauf effet polarisé pour les électrolytiques/tantales.}
+\end{frame}
+
+%---------------------------------------------------------
+%	CLOSING SLIDE
+%---------------------------------------------------------
+\appendix
+\begin{frame}[noframenumbering]
+    \begin{center}
+        {\LARGE Merci de votre attention !\\Avez-vous des questions ?}
+    \end{center}
+\end{frame}
+
+\end{document}
