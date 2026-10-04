@@ -70,8 +70,8 @@ int main() {//exemple
 
 - Liens en local :
 
-![pic1](./pict/Logo_Robotech.jpg)
-[pic2](./pict/github_logo.png)
+![pic1](./pict/github_logo.png)
+[pic2](./pict/Logo_Robotech.jpg)
 
 #### HTML
 
