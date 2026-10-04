@@ -10,6 +10,7 @@ _surement pas avec des jambes déjà_
 
 Un README c'est un document **markdown** qui fait l'objet d'une couverture sur un dossier git.
 Un README agit comme un sommaire qui explique comment utiliser le dossier du repo git.
+
 Par exemple:
 - [Git](./Git/): formation git.
 - [Kicad](./kicad/): formation kicad.
@@ -31,8 +32,11 @@ On utilise ce language particulièrement pour des `README.md`.
 #### Titre 4
 
 **Texte en gras**
+
 _Texte en italique_
+
 ~~Texte barré~~
+
 ==Texte surligné==
 
 - Élément 1
